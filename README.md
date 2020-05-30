@@ -49,8 +49,8 @@ certain configurations.
 The following directories, or symbolic links to directories, may be in
 `/cache`, if the corresponding subsystem is installed and in-use:
 
-| Directory   	     | Description
-|---	             |---
+| Directory          | Description
+|---                 |---
 | `/cache/apparmor`  | AppArmor LSM binary compiled profiles
 | `/cache/certs`     | X.509 public CA certificates bundles
 | `/cache/ldconfig`  | `ld.so` dynamic linker cache files
