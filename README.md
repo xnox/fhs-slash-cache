@@ -13,7 +13,7 @@ It is assumed to be mounted read-write. It can be mounted read-only,
 but then it must be available for read-write during application of
 configuration updates and system updates.
 
-It is not guaranteed to be sharable, but it can be, if the
+It is not guaranteed to be shareable, but it can be, if the
 configuration of the shared systems is compatible.
 
 In particular, this directory attempts to clean up existing abuse of
