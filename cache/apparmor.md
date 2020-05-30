@@ -4,7 +4,7 @@ The directory `/cache/apparmor` should be used to store AppArmor
 precompiled binary profiles.
 
 The profiles are compiled from their textual representation, and
-stored in subdirectories orgnazied by kernel features. The textual
+stored in sub-directories organised by kernel features. The textual
 representations are normally shipped in the directories under `/etc`
 and `/usr`.
 
