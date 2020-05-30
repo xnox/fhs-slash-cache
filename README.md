@@ -52,3 +52,7 @@ See [`/cache/certs`](cache/certs.md)
 ## `/cache/ldconfig`
 
 See [`/cache/ldconfig`](cache/ldconfig.md)
+
+## `/cache/insserv`
+
+See [`/cache/insserv`](cache/insserv.md)
