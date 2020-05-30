@@ -19,3 +19,13 @@ of immutable rootfs and empty-`/etc`. For example, system default LSB
 `/usr/libexec/init.d` making `/etc` empty. System administrator can
 then supply additional `init.d` scripts, or overrides, in `/etc` which
 would then be preffered over stock ones.
+
+Whilst `/cache/rcd` can be recreated from the data in `/etc/init.d`,
+`/lib/init.d`, `/usr/libexec/init.d`, it may loose some state. For
+example, system administrator can use `update-rc.d` to manipulate
+state in `/cache/rcd` to rename symlinks to force disable or force
+enable certain scripts, without storing this in the overriden LSB
+headers in `/etc/init.d`. If ability to destroy and recreate
+`/cache/rcd` is desired, changes to the default start and stop
+runlevels should be encoded in the LSB header in `/etc/init.d` instead
+of simply manipulating the symlink farm state.
