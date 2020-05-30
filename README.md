@@ -49,3 +49,6 @@ See [`/cache/apparmor`](cache/apparmor.md)
 
 See [`/cache/certs`](cache/certs.md)
 
+## `/cache/ldconfig`
+
+See [`/cache/ldconfig`](cache/ldconfig.md)
