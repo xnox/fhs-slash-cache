@@ -59,20 +59,20 @@ The following directories, or symbolic links to directories, may be in
 
 ## `/cache/apparmor`
 
-See [`/cache/apparmor`](cache/apparmor.md)
+See [`/cache/apparmor`](apparmor.md)
 
 ## `/cache/certs`
 
-See [`/cache/certs`](cache/certs.md)
+See [`/cache/certs`](certs.md)
 
 ## `/cache/ldconfig`
 
-See [`/cache/ldconfig`](cache/ldconfig.md)
+See [`/cache/ldconfig`](ldconfig.md)
 
 ## `/cache/rcd`
 
-See [`/cache/rcd`](cache/rcd.md)
+See [`/cache/rcd`](rcd.md)
 
 ## `/cache/swap`
 
-See [`/cache/swap`](cache/swap.md)
+See [`/cache/swap`](swap.md)
