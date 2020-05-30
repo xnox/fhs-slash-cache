@@ -3,7 +3,7 @@
 The directory `/cache/ldconfig` should be used to store `ldconfig`
 generated cache files.
 
-## Deprecated locations
+#### Deprecated locations
 
 | Deprecates                | Reason
 |---                        |---

@@ -8,7 +8,7 @@ stored in subdirectories orgnazied by kernel features. The textual
 representations are normally shipped in the directories under `/etc`
 and `/usr`.
 
-## Deprecated locations
+#### Deprecated locations
 
 | Deprecates                | Reason
 |---                        |---
