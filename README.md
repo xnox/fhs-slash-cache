@@ -53,9 +53,8 @@ The following directories, or symbolic links to directories, may be in
 |---	             |---
 | `/cache/apparmor`  | AppArmor LSM binary compiled profiles
 | `/cache/certs`     | X.509 public CA certificates bundles
-| `/cache/insserv`   | dependencies cache of LSB init.d scripts
 | `/cache/ldconfig`  | `ld.so` dynamic linker cache files
-| `/cache/rcd`       | LSB `init.d` script symlink farms
+| `/cache/rcd`       | LSB `init.d` script symlink farms and dependencies
 | `/cache/swap`      | Linux Swap files
 
 ## `/cache/apparmor`
@@ -65,10 +64,6 @@ See [`/cache/apparmor`](cache/apparmor.md)
 ## `/cache/certs`
 
 See [`/cache/certs`](cache/certs.md)
-
-## `/cache/insserv`
-
-See [`/cache/insserv`](cache/insserv.md)
 
 ## `/cache/ldconfig`
 

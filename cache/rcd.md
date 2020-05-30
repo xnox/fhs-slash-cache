@@ -1,17 +1,20 @@
 ## `/cache/rcd`
 
 The directory `/cache/rcd` should be used to store LSB `init.d`
-scripts runlevel directories managed by `update-rc.d`.
+scripts runlevel directories managed by `update-rc.d` as well as
+`insserv` dependency information.
 
-This deprecates `/etc/rc*.d/` locations.
+This deprecates `/etc/rc*.d/` and `/etc/.depend.*` locations.
 
-For backwards compatibility the deprecated directories can be replaced
-with symlinks to `/cache/rc*.d/` directories instead.
+For backwards compatibility the deprecated `/etc/rc*.d` directories
+can be replaced with symlinks to `/cache/rc*.d/` directories
+instead. The depraced `/etc/.depend.*` files can be replaced with
+symlinks, to non-hidden `/cache/depend.*` files.
 
-Normally these directories are pure symlink farms. And for correct
-integration with the update software, often enough, removing symlinks
-is not a valid configuration override and instead symlinks have to be
-renamed to `K` names instead.
+Normally the `rc*.d` directories are pure symlink farms. And for
+correct integration with the update software, often enough, removing
+symlinks is not a valid configuration override and instead symlinks
+have to be renamed to `K` names instead.
 
 By moving `/etc/rc*.d` under `/cache`, it is possible to achieve goals
 of immutable rootfs and empty-`/etc`. For example, system default LSB
